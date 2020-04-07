@@ -20,13 +20,13 @@
         "link":"https://developers.google.com/actions/"
     },
     {
-        "TechName":"Angular",
-        "image":"angular.svg",
-        "link":"https://angular.io/"
+        "TechName":"Doker",
+        "image":"docker.webp",
+        "link":"https://www.docker.com/"
     },
     {
-        "TechName":"Android",
-        "image":"android.svg",
-        "link":"https://www.android.com/"
+        "TechName":"Kubernetes",
+        "image":"kube.jpg",
+        "link":"https://kubernetes.io/"
     }
 ]

@@ -1,16 +1,16 @@
 [
     {
         "name":"Claudia Calò",
-        "designation":"Community Leader",
-        "twitter":"https://twitter.com/",
-        "linkedin":"https://www.linkedin.com/",
-        "github":"https://github.com/",
-        "profileImage":"",
+        "designation":"Public Relation",
+        "twitter":"",
+        "linkedin":"https://www.linkedin.com/in/claudia-cal%C3%B2/",
+        "github":"",
+        "profileImage":"claudia.png",
         "website":""
     },
     {
         "name":"Elisa Pacchiardo",
-        "designation":"Community Leader",
+        "designation":"Developer",
         "twitter":"",
         "linkedin":"https://www.linkedin.com/",
         "github":"",
@@ -19,11 +19,11 @@
     },
     {
         "name":"Michele Leone",
-        "designation":"Community Leader",
-        "twitter":"https://twitter.com/",
-        "linkedin":"https://www.linkedin.com/",
-        "github":"https://www.github.com/",
-        "profileImage":"",
+        "designation":"Developer",
+        "twitter":"https://twitter.com/malachitos",
+        "linkedin":"https://www.linkedin.com/in/malachitos/",
+        "github":"",
+        "profileImage":"michele.png",
         "website":""
     }
 ]
