@@ -22,6 +22,11 @@
             "name" : "Meetup",
             "link" : "https://meetup.com/it-IT/Google-Cloud-Developer-Community-Torino/",
             "icon" : "fab fa-meetup"
+        },
+        {
+            "name" : "Youtube",
+            "link" : "https://www.youtube.com/channel/UC_IwrhoyEgi-j6_haw_6OGw",
+            "icon" : "fab fa-youtube"
         }
     ],
     "wtmWebsite":"https://www.womentechmakers.com/",

@@ -129,6 +129,33 @@
                                         </a>
                                     </v-card>
 
+                                    <v-card flat tile class="d-flex pa-2 ma-1 elevation-1" style="border-radius:4px;border-width: 0px; border-style: solid;">
+                                        <a href="https://torino.impacthub.net/" target="_blank">
+                                        <v-tooltip bottom>
+                                            <template v-slot:activator="{ on }">
+                                        <v-img
+                                            :src="require('@/assets/img/partners/impact.png')"
+                                            :lazy-src="require('@/assets/img/partners/impact.png')"
+                                            aspect-ratio="3.0"
+                                            class="white"
+                                            v-on="on"
+                                        >
+                                            <v-layout
+                                                slot="placeholder"
+                                                fill-height
+                                                align-center
+                                                justify-center
+                                                ma-0
+                                            >
+                                                <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
+                                            </v-layout>
+                                        </v-img>
+                                        </template>
+                                        <span class="google-font">Impact Hub</span>
+                                        </v-tooltip>
+                                        </a>
+                                    </v-card>
+
                                     </v-flex>
                                 </v-layout>
                                 
