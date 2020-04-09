@@ -23,7 +23,7 @@
       fill-height
       class="hidden-sm-and-down my-3"
       :style="{'background-image':'url('+require('@/assets/img/svg/bg.svg')+')'}"
-      style="background-position:right"
+      style="background-position:right;align-items: stretch"
     >
       <v-flex xs12 sm6 md4 lg4 v-for="n in 3" :key="`4${n}`">
         <v-card
@@ -67,8 +67,9 @@
       <v-flex xs12 sm6 md4 lg4 v-for="(item,i) in eventsData" :key="i">
         <v-card
           flat
+          height="100%"
           class="ma-1 pa-1 my-0 elevation-0"
-          style="border-radius:7px;border:1px #ddd solid"
+          style="border-radius:7px;border:1px #ddd solid;display: flex;flex-direction: column;justify-content: space-between !important"
         >
           <v-card-title class="mb-0">
             <div>

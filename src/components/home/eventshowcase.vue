@@ -22,14 +22,14 @@
       </v-flex>
     </v-layout>
 
-    <v-layout wrap align-start justify-center row fill-height class="hidden-sm-and-down mb-4">
+    <v-layout wrap align-start justify-center row fill-height style="align-items: stretch;" class="hidden-sm-and-down mb-4">
       <v-flex xs12 v-if="showLoader">
         <v-layout row wrap>
           <v-flex xs12 sm6 md3 lg3 v-for="n in 4" :key="`4${n}`">
             <v-card
               flat
               class="ma-1 pa-1 my-0 elevation-0"
-              style="border-radius:7px;border:1px #ddd solid"
+              style="border-radius:7px;border:1px #ddd solid;"
             >
               <v-card-title class="mb-0">
                 <div>
@@ -63,8 +63,9 @@
       <v-flex xs12 sm6 md3 lg3 v-for="(item,i) in eventsData" :key="i">
         <v-card
           flat
+          height="100%"
           class="ma-1 pa-1 my-0"
-          style="border: 1px solid #e0e0e0;min-height:160px;border-radius:7px;"
+          style="border: 1px solid #e0e0e0;min-height:160px;border-radius:7px;display: flex; flex-direction: column;justify-content: space-between"
         >
           <v-card-title class="mb-0">
             <div>
