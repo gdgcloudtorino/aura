@@ -12,9 +12,9 @@
         "name":"Elisa Pacchiardo",
         "designation":"Developer",
         "twitter":"",
-        "linkedin":"https://www.linkedin.com/",
+        "linkedin":"https://www.linkedin.com/in/elisa-pacchiardo-937781bb/",
         "github":"",
-        "profileImage":"",
+        "profileImage":"elisa.png",
         "website":""
     },
     {
@@ -25,5 +25,14 @@
         "github":"",
         "profileImage":"michele.png",
         "website":""
+    },
+    {
+        "name":"Simone Mostacci",
+        "designation":"Graphic Designer",
+        "twitter":"",
+        "linkedin":"https://www.linkedin.com/in/simone-mostacci-18b621141/",
+        "github":"",
+        "profileImage":"simone.png",
+        "website":"https://simonemostacci.it/"
     }
 ]
